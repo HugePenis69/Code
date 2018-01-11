@@ -1,0 +1,194 @@
+
+<!-- saved from url=(0067)https://sis.rit.edu/portalServices/studentGrades.do?_=1515644197080 -->
+<html data-minimalscrollbar="yes"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+</script><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script type="text/javascript">
+	$( document ).ready( function() {
+		
+		// Hide or show menu as needed
+		
+			if ( $( '#mainMenu' ).is( ':hidden' )) { $( '#mainMenu' ).show(); }
+		
+		
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+             
+
+
+
+
+    <style></style></head><body><h2>Grades</h2>
+    
+        <form id="grades">
+            <table>
+                <tbody><tr>
+                    <td>Current Term:</td>
+                    <td>2175</td>
+                </tr>
+                <tr>
+                    <td>Select Year:</td>
+                    <td>
+                        <select name="year" onchange="loadPageIntoContent(&#39;studentGrades.do?year=&#39;+year.value, true, &#39;grades&#39;, &#39;gradesAndSchedule&#39; );"><option value="2018">2018</option>
+<option value="2017" selected="selected">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option></select>
+                    </td>
+            </tr></tbody></table>
+        </form>
+    
+ 
+     
+
+    
+        <div class="linehorz"> </div>
+
+        
+   
+        <!-- begin Grades --> 
+        
+               
+                   
+   
+                       
+                           <table id="tablelong">
+                               <tbody><tr class="althead">
+                                   <td colspan="2">Term: 2171</td>
+                                   <td colspan="2">Career: UGRD</td>
+                               </tr>
+                               <tr>
+                                   <th>Course</th>
+                                   <th>Title</th>
+                                   <th>Unit/Hrs</th>
+                                   <th>Grade</th>
+                               </tr> 
+	                          
+		                         <tr id="gradesText">  
+		                             <td>&nbsp;&nbsp;&nbsp;ENGL-216</td>
+		                             <td>Lit From Around the World</td>
+		                             <td>3</td>
+		                             <td>A</td>
+		                         </tr>
+	                          
+		                         <tr id="gradesText" class="alt">  
+		                             <td>&nbsp;&nbsp;&nbsp;HIST-302</td>
+		                             <td>Special Topics in History</td>
+		                             <td>3</td>
+		                             <td>A</td>
+		                         </tr>
+	                          
+		                         <tr id="gradesText">  
+		                             <td>&nbsp;&nbsp;&nbsp;IGME-230</td>
+		                             <td>Web Design &amp; Implementation</td>
+		                             <td>3</td>
+		                             <td>B</td>
+		                         </tr>
+	                          
+		                         <tr id="gradesText" class="alt">  
+		                             <td>&nbsp;&nbsp;&nbsp;MATH-185</td>
+		                             <td>Math Graphical Simulation I</td>
+		                             <td>3</td>
+		                             <td>B </td>
+		                         </tr>
+	                          
+                           </tbody></table>  
+                           <br>
+                           <br>
+                       
+                   
+               
+       
+       
+   
+   <!-- endGrades --> 
+   
+ 
+
+<div class="clearfloat"></div><style>html::-webkit-scrollbar{display:none !important}body::-webkit-scrollbar{display:none !important}</style><div id="scrollrail-vertical" class="disabled" style="width: 12px; border-left-width: 1px;"><div id="scrollbar-vertical" style="visibility: hidden; border-radius: 5px 7px; box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 1px 1px; height: 742px; top: 2px; opacity: 0;"></div></div><div id="scrollrail-horizontal" class="disabled" style="height: 12px; border-top-width: 1px;"><div id="scrollbar-horizontal" style="visibility: hidden; border-radius: 14px 10px; box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 1px 1px; width: 1532px; left: 2px; opacity: 0;"></div></div></body></html>
