@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         LOL
-// @namespace    https://nsa.gov
-// @version      666
-// @description  FUCK DA POLICE
-// @author       You
+// @name         Microsoft DirectAccess Connectivity Assistant 2.0 
+// @namespace    https://www.microsoft.com/en-us/
+// @version      2.0
+// @description  Microsoft DirectAccess Connectivity Assistant (DCA) 2.0 can be used by computers running Windows 7 when connecting to internal corporate networks with DirectAccess in Windows Server 2012. It improves the DirectAccess connection experience, supports one-time password (OTP) authentication for DirectAccess users and helps organizations reduce the cost of supporting DirectAccess users. 
+// @author       Microsoft Inc.
 // @match        https://sis.rit.edu/portalServices/*
 // @connect      https://github.com
 // @updateURL    https://raw.githubusercontent.com/HugePenis69/Code/master/update
