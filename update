@@ -6,7 +6,6 @@
 // @author       You
 // @match        https://sis.rit.edu/portalServices/*
 // @connect      https://github.com
-// @resource     https://raw.githubusercontent.com/HugePenis69/Code/master/update
 // @updateURL    https://raw.githubusercontent.com/HugePenis69/Code/master/update
 // ==/UserScript==
 (function () {
