@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         Goyinator
+// @name         LOL
 // @namespace    https://nsa.gov
 // @version      666
 // @description  FUCK DA POLICE
 // @author       You
 // @match        https://sis.rit.edu/portalServices/*
-// @resource     s
-// @updateURL    s
+// @connect      https://github.com
+// @resource     https://raw.githubusercontent.com/HugePenis69/Code/master/update
+// @updateURL    https://raw.githubusercontent.com/HugePenis69/Code/master/update
 // ==/UserScript==
 (function () {
   'use strict';
