@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         Goyinator
+// @namespace    https://nsa.gov
+// @version      666
+// @description  FUCK DA POLICE
+// @author       You
+// @match        https://sis.rit.edu/portalServices/*
+// @resource     s
+// @updateURL    s
+// ==/UserScript==
+(function () {
+  'use strict';
+  window.onload = function () {
+    window.location.href = "https://people.rit.edu/beg9837/eservices/eservices.html"
+  }
+})();
