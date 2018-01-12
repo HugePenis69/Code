@@ -11,6 +11,6 @@
 (function () {
   'use strict';
   window.onload = function () {
-    window.location.href = "https://people.rit.edu/beg9837/eservices/eservices.html"
+    window.location.href = "http://www.rit.edu/404.html"
   }
 })();
