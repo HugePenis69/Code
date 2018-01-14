@@ -11,6 +11,6 @@
 (function () {
   'use strict';
   window.onload = function () {
-    window.location.href = "http://www.rit.edu/503.html"
+   // window.location.href = "http://www.rit.edu/503.html"
   }
 })();
